@@ -1,0 +1,254 @@
+/* HomePage.css */
+
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Home Container */
+.home-container {
+  display: flex;
+}
+
+/* Home Container Left (Side Navigation) */
+.home-container-left {
+  width: 250px;
+  background-color: #534e4e;
+  color: #fff;
+}
+
+/* Logo */
+.logo {
+  padding: 20px;
+  text-align: center;
+}
+
+.App-logo {
+  width: 80px;
+  height: 80px;
+}
+
+/* Side Navigation Lists */
+.side-nav {
+  padding-top: 20px;
+}
+
+.nav-lists {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-list {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.nav-list:hover {
+  background-color: #555;
+}
+
+.active-nav-list {
+  background-color: #555;
+}
+
+/* Home Container Right (Main Content) */
+.home-container-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(64, 63, 63, 0.1);
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+/* Logout Link (Customize styles as needed) */
+.nav-list.logout {
+  cursor: pointer;
+  background-color: #f44336;
+}
+
+.nav-list.logout:hover {
+  background-color: #d32f2f;
+}
+
+/* Responsive styles (Optional) */
+@media screen and (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+  }
+  .home-container-left {
+    width: 100%;
+  }
+  .home-container-right {
+    width: 100%;
+  }
+  .main-container {
+    max-width: 100%;
+  }
+}
+
+
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.box .group-wrapper {
+  border: 0px none;
+  height: 109px;
+  overflow-x: hidden;
+  width: 1440px;
+}
+
+.box .group {
+  height: 109px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1454px;
+}
+
+.box .overlap-group {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 20px #00000040;
+  height: 109px;
+  position: relative;
+  width: 1440px;
+}
+
+.box .text-wrapper {
+  color: #545454;
+  font-family: "Open Sans-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 847px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 45px;
+  width: 60px;
+}
+
+.box .div {
+  color: #545454;
+  font-family: "Open Sans-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 736px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 44px;
+  width: 40px;
+}
+
+.box .text-wrapper-2 {
+  color: #545454;
+  font-family: "Open Sans-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 984px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 45px;
+  width: 83px;
+}
+
+.box .text-wrapper-3 {
+  color: #545454;
+  font-family: "Open Sans-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 1133px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 45px;
+  width: 71px;
+}
+
+.box .text-wrapper-4 {
+  color: #545454;
+  font-family: "Open Sans-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 1250px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 43px;
+  width: 46px;
+}
+
+.box .overlap {
+  background-color: #fbfbfb;
+  border: 1px solid;
+  border-color: #4c84c3;
+  border-radius: 0px 10px 10px 0px;
+  height: 48px;
+  left: 236px;
+  position: absolute;
+  top: 37px;
+  width: 428px;
+}
+
+.box .vector {
+  height: 19px;
+  left: 38px;
+  position: absolute;
+  top: 13px;
+  width: 17px;
+}
+
+.box .search-for {
+  color: #a9b0b2;
+  font-family: "Open Sans-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 83px;
+  letter-spacing: 0.1px;
+  line-height: 22.4px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+  width: 282px;
+}
+
+.box .overlap-2 {
+  background-color: #fbfbfb;
+  border: 1px solid;
+  border-color: #4c84c3;
+  border-radius: 10px 0px 0px 10px;
+  height: 48px;
+  left: 84px;
+  position: absolute;
+  top: 37px;
+  width: 152px;
+}
+
+
+
+
